@@ -33,7 +33,8 @@ const Signup = () => {
   };
 
   const handleSignIn = async () => {
-    setTimeout(() => navigate("/login"), 500);
+    console.log("handlelsignin is triggered");
+    setTimeout(() => navigate("/login"),1000);
   }
 
   return (
