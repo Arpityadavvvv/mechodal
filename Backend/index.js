@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 5000;
 // now using middlewares here 
 
 app.use(cors({
-    origin: "http://localhost:5173", // Allow frontend requests
+    origin: "https://mechodaltech.vercel.app", // Allow frontend requests
     methods: ["POST", "GET"], 
     credentials: true
   })); // for diffrent ports 
