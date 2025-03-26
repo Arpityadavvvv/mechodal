@@ -17,7 +17,7 @@ const Login = () => {
 
     try {
       console.log("data is coming ")
-      const response = await axios.post("http://localhost:5000/login", {
+      const response = await axios.post("https://mechodal.onrender.com/login", {
         name,
         mobile,
       });
