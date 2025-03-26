@@ -19,7 +19,7 @@ app.use(cors({
 app.use(express.json()); // json parser it is 
 
 // database connection 
-mongoose.connect("mongodb://localhost:27017/mechodal", { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect("mongodb+srv://arpity665:RQcWiy5edxl8rigS@cluster0.mgddyin.mongodb.net/", {})
   .then(() => console.log("Database connected succesfully"))
   .catch(err => console.log(err));
 
