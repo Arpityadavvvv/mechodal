@@ -32,6 +32,10 @@ const Signup = () => {
     }
   };
 
+  const handleSignIn = async () => {
+    setTimeout(() => navigate("/login"), 500);
+  }
+
   return (
     <div className="flex justify-center items-center min-h-screen bg-gray-100">
       <div className="bg-white p-6 rounded-2xl shadow-md w-full max-w-md">
@@ -88,7 +92,7 @@ const Signup = () => {
 
         <p className="text-center mt-4 text-sm text-gray-500">
           Already have an account?{" "}
-          <span className="text-[#981b43] font-bold cursor-pointer">Sign in</span>
+          <span onClick={handleSignIn} className="text-[#981b43] font-bold cursor-pointer">Sign in</span>
         </p>
       </div>
     </div>
