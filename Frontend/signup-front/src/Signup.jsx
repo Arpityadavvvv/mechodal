@@ -32,7 +32,7 @@ const Signup = () => {
     }
   };
 
-  const handleSignIn = async () => {
+  const handleSignIn = () => {
     console.log("handlelsignin is triggered");
     setTimeout(() => navigate("/login"),1000);
   }
@@ -93,7 +93,7 @@ const Signup = () => {
 
         <p className="text-center mt-4 text-sm text-gray-500">
           Already have an account?{" "}
-          <button onClick={handleSignIn} className="text-[#981b43] font-bold cursor-pointer">Sign in</button>
+          <button onClick={handleSignIn} className="text-[#981b43] font-bold cursor-pointer">login </button>
         </p>
       </div>
     </div>
