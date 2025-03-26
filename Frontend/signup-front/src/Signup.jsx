@@ -92,7 +92,7 @@ const Signup = () => {
 
         <p className="text-center mt-4 text-sm text-gray-500">
           Already have an account?{" "}
-          <span onClick={handleSignIn} className="text-[#981b43] font-bold cursor-pointer">Sign in</span>
+          <button onClick={handleSignIn} className="text-[#981b43] font-bold cursor-pointer">Sign in</button>
         </p>
       </div>
     </div>
